@@ -1,7 +1,3 @@
-"""
-Демонстрация работы пакета collision.
-"""
-
 from collision import (
     isCorrectRect,
     isCollisionRect,
@@ -12,7 +8,7 @@ from collision import (
 
 
 def get_rect_input(n):
-    """Запрос координат прямоугольника."""
+    # Запрос координат прямоугольника. 
     while True:
         print(f"\nПрямоугольник {n}:")
         try:
@@ -30,9 +26,9 @@ def get_rect_input(n):
 
 
 def main():
-    print("=== Демонстрация пакета collision ===\n")
+    print("Демонстрация пакета collision")
     
-    # примеры из задания
+    # примеры
     print("1. isCorrectRect:")
     tests = [
         [(-3.4, 1), (9.2, 10)],  # true
